@@ -1,0 +1,12 @@
+{
+  "uat": {
+    "base_url": "https"
+  },
+  "prod": {
+    "base_url" : "https"
+  },
+  "enviroment": {
+
+    "env": "prod"
+  }
+}
