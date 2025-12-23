@@ -3,7 +3,7 @@
     "base_url": "https"
   },
   "prod": {
-    "base_url" : "https"
+    "base_url" : "https://qa.api-gw.consolidated.com"
   },
   "enviroment": {
 

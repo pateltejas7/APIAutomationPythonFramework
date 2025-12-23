@@ -26,10 +26,10 @@ def test_url():
     json_req = GoRest.Create_User
     print("json_req", json_req)
 
-    response = FrameworkUtils.fire_api_custom("GET", request_url=GET_USER, headers=headers)
+    response = FrameworkUtils.fire_api_custom("GET",
+                                              request_url=GET_USER,
+                                              headers=headers)
     print("response", response.json())
-
-
 
 
 test_url()

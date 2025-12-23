@@ -1,5 +1,6 @@
 from functional_APITest.functional_param import FunctionalParam
 
+Base_URL= "https://qa.api-gw.consolidated.com"
 
 class APIURLS:
 
@@ -8,3 +9,8 @@ class APIURLS:
     @staticmethod
     def get_user_userid(user_id):
         return FunctionalParam.get_base_end_point() + f"/public/v2/users/{user_id}"
+
+    @staticmethod
+    def getoverviewAPI():
+        return FunctionalParam.get_base_end_point() + f"/crm-x-orders/api/v1/TLBILMBRINFOGETOVERVIEW?memberNumber=130373030806"
+
