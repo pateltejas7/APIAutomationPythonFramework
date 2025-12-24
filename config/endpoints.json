@@ -3,10 +3,10 @@
     "base_url": "https"
   },
   "prod": {
-    "base_url" : "https://qa.api-gw.consolidated.com"
+    "base_url" : "https://qa.api-gw.consolidated.com",
+    "apiKey": "lMgkZhcqAkT6B5OLJj6m1MWdR4mYbFBW"
   },
   "enviroment": {
-
     "env": "prod"
   }
 }

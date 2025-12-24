@@ -5,7 +5,6 @@ import requests
 
 from config.api_config import Base_URL
 
-
 class FrameworkUtils:
     @staticmethod
     def fire_api_custom(request_method = "GET",
